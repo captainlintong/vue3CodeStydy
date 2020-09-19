@@ -1,1 +1,13 @@
 vue3study
+
+vue create vue3KKBStudy
+
+vue add vue-next
+
+main.js 的代码发生变化
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+
+createApp(App).use(router).use(store).mount('#app')
