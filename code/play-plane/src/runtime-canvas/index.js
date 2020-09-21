@@ -5,8 +5,9 @@ const renderer = createRenderer({
         console.log(type)
         let element
         if (type === 'rect') {
+            // console.log('323232')
             element = new Graphics()
-            element.beginFill(0*'ff0000' )
+            element.beginFill(0xFFFF00)
             element.drawRect(0,0,500,500)
             element.endFill()
         }
@@ -15,6 +16,7 @@ const renderer = createRenderer({
     insert(el, parent) {
         console.log(el)
         console.log(parent)
+        parent.addChild(el)
     }
 
 })
