@@ -1,5 +1,5 @@
-import * as PIXI from 'pixi.js'
-const game = new PIXI.Application({
+import { Application } from 'pixi.js'
+const game = new Application({
     width: 750,
     height:1080
 })
