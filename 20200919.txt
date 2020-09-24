@@ -30,6 +30,18 @@ touch ‘xxx   创建文件
 shift+option+b Mac打符号
 
 
+command+空格。打开搜索
+Terminal 打开终端
+系统自带锁屏快捷键：Ctrl + Command + Q
+
+
+数组方法 push尾部添加。pop删除并返回数组的最后一个元素
+        unshift头部添加。shift 头部删除
+
+
+
+
+
 
 
 
