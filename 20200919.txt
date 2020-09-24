@@ -15,6 +15,25 @@ createApp(App).use(router).use(store).mount('#app')
 
 
 
+Shift  + command +>  选取一行
+Control + ` 打开/关闭终端
+
+Option + shift +下滑  光标向下选取
+Option + Shift + A 添加、移除块注释
+
+Clear   or command + k 清空终端
+Control  + tab 切换页面
+
+mkdir ‘xxx’   创建文件夹
+touch ‘xxx   创建文件
+
+shift+option+b Mac打符号
+
+
+
+
+
+
 
 mkdir ‘xxx’   创建文件夹
 touch ‘xxx   创建文件
