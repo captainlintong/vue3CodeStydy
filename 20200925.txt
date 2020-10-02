@@ -3,3 +3,6 @@
 今天生产的项目出bug了，服务端改的有问题，最近这个项目有新功能，dev分支改的乱七八糟的，准备下次上线的时候把master的代码换一下，换成dev的，把弹框去掉。20200928
 
 在bootcdn上没有发现fastclick的0.3.1版本，但是项目里阿里的地址有https://gw.alipayobjects.com/as/g/luna-component/luna-fastclick/0.3.1/index.js 20200929
+
+
+https://www.jb51.net/article/182038.htm vue签名插件 20201002
