@@ -6,3 +6,4 @@
 
 
 https://www.jb51.net/article/182038.htm vue签名插件 20201002
+http nginx 20201007
