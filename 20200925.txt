@@ -7,3 +7,6 @@
 
 https://www.jb51.net/article/182038.htm vue签名插件 20201002
 http nginx 20201007
+
+Vscode 不能自动保存 ，参考https://blog.csdn.net/weixin_40982944/article/details/80844214
+https://www.jianshu.com/p/b56a0649affb。完美解决 20201009
