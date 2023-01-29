@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <div id="app">{{ message }}</div>
+
+<script>
+  const { createApp } = Vue
+  const app = createApp({
+    data() {
+      return {
+        message: 'v'
+      }
+    }
+  }).mount('#app')
+  console.log(app,'app');
+
+// 我们传入 createApp 的对象实际上是一个组件，每个应用都需要一个“根组件”，其他组件将作为其子组件。
+// 如果你使用的是单文件组件，我们可以直接从另一个文件中导入根组件。
+
+</script>
+
+</body>
+</html>
