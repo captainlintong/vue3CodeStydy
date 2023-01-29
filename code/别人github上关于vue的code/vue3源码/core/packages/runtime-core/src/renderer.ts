@@ -293,6 +293,7 @@ export const queuePostRenderEffect = __FEATURE_SUSPENSE__
  * })
  * ```
  */
+// createRenderer
 export function createRenderer<
   HostNode = RendererNode,
   HostElement = RendererElement
@@ -2348,7 +2349,7 @@ function baseCreateRenderer(
       internals as RendererInternals<Node, Element>
     )
   }
-
+ // 返回的是渲染器
   return {
     render,
     hydrate,

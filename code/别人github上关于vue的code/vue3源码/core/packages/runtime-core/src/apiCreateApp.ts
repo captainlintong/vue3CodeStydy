@@ -205,7 +205,7 @@ export function createAppAPI<HostElement>(
     const installedPlugins = new Set()
 
     let isMounted = false
-
+    // 创建App实例
     const app: App = (context.app = {
       _uid: uid++,
       _component: rootComponent as ConcreteComponent,
@@ -305,6 +305,7 @@ export function createAppAPI<HostElement>(
                 ` you need to unmount the previous app by calling \`app.unmount()\` first.`
             )
           }
+          // 根组件 转成虚拟dom
           const vnode = createVNode(
             rootComponent as ConcreteComponent,
             rootProps
@@ -323,6 +324,7 @@ export function createAppAPI<HostElement>(
           if (isHydrate && hydrate) {
             hydrate(vnode as VNode<Node, Element>, rootContainer as any)
           } else {
+            // 虚拟dom 转成 真实dom
             render(vnode, rootContainer, isSVG)
           }
           isMounted = true

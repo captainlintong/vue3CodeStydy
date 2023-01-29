@@ -62,15 +62,17 @@ export const render = ((...args) => {
 export const hydrate = ((...args) => {
   ensureHydrationRenderer().hydrate(...args)
 }) as RootHydrateFunction
-
+// createApp
 export const createApp = ((...args) => {
+  // 创建app
   const app = ensureRenderer().createApp(...args)
+  // ensureRenderer 获取自定义渲染器
 
   if (__DEV__) {
     injectNativeTagCheck(app)
     injectCompilerOptionsCheck(app)
   }
-
+  // 扩展mount
   const { mount } = app
   app.mount = (containerOrSelector: Element | ShadowRoot | string): any => {
     const container = normalizeContainer(containerOrSelector)
